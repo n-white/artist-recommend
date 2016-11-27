@@ -1,0 +1,41 @@
+{
+  "name": "artist-recommend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "body-parser": "^1.15.2",
+    "css-loader": "^0.26.0",
+    "express": "^4.14.0",
+    "node-sass": "^3.13.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack -p && node server",
+    "start:dev": "webpack -p && nodemon -L server",
+    "watch": "webpack --progress --colors --watch",
+    "server": "nodemon server",
+    "u-server": "nodemon user-service",
+    "build": "webpack-dev-server --inline --hot --content-base client/build/",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-white/artist-recommend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-white/artist-recommend/issues"
+  },
+  "homepage": "https://github.com/n-white/artist-recommend#readme"
+}

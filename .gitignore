@@ -1,0 +1,6 @@
+# No dependencies
+node_modules
+
+# Bundle file
+client/build/bundle.js
+client/build/bundle.js.map
